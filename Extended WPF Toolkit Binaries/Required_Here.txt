@@ -1,0 +1,58 @@
+Download the Extended WPF Toolkit Binaries and place them here!
+https://wpftoolkit.codeplex.com/
+
+================================================================================
+Resulting directory tree:
+
++---Toolkit001
+    ¦   .gitattributes
+    ¦   .gitignore
+    ¦   Toolkit001.sln
+    ¦
+    +---Extended WPF Toolkit Binaries
+    ¦   ¦   Required_Here.txt				<=== This file is here!
+    ¦   ¦   Xceed.Wpf.AvalonDock.dll
+    ¦   ¦   Xceed.Wpf.AvalonDock.Themes.Aero.dll
+    ¦   ¦   Xceed.Wpf.AvalonDock.Themes.Metro.dll
+    ¦   ¦   Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+    ¦   ¦   Xceed.Wpf.DataGrid.dll
+    ¦   ¦   Xceed.Wpf.Toolkit.dll
+    ¦   ¦
+    ¦   +---de
+    ¦   ¦       Xceed.Wpf.AvalonDock.resources.dll
+    ¦   ¦
+    ¦   +---es
+    ¦   ¦       Xceed.Wpf.AvalonDock.resources.dll
+    ¦   ¦
+    ¦   +---fr
+    ¦   ¦       Xceed.Wpf.AvalonDock.resources.dll
+    ¦   ¦       Xceed.Wpf.Toolkit.LiveExplorer.resources.dll
+    ¦   ¦
+    ¦   +---hu
+    ¦   ¦       Xceed.Wpf.AvalonDock.resources.dll
+    ¦   ¦
+    ¦   +---it
+    ¦   ¦       Xceed.Wpf.AvalonDock.resources.dll
+    ¦   ¦
+    ¦   +---pt-BR
+    ¦   ¦       Xceed.Wpf.AvalonDock.resources.dll
+    ¦   ¦
+    ¦   +---ro
+    ¦   ¦       Xceed.Wpf.AvalonDock.resources.dll
+    ¦   ¦
+    ¦   +---ru
+    ¦   ¦       Xceed.Wpf.AvalonDock.resources.dll
+    ¦   ¦
+    ¦   +---sv
+    ¦   ¦       Xceed.Wpf.AvalonDock.resources.dll
+    ¦   ¦
+    ¦   +---zh-Hans
+    ¦           Xceed.Wpf.AvalonDock.resources.dll
+    ¦
+    +---Toolkit001
+        ¦   App.config
+        ¦   App.xaml
+        ¦   App.xaml.cs
+        ¦   MainWindow.xaml
+        ¦   MainWindow.xaml.cs
+        ¦   Toolkit001.csproj

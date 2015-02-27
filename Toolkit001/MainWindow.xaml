@@ -1,0 +1,30 @@
+﻿<Window x:Class="Toolkit001.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:xcdg="http://schemas.xceed.com/wpf/xaml/datagrid"
+        Title="Xceed Toolkit"
+        Height="300" Width="300">
+    <TabControl>
+        <TabItem Header="ButtonSpinner">
+            <StackPanel>
+                <xctk:ButtonSpinner Spin="ButtonSpinner_Spin">
+                    <TextBox Text="0" HorizontalContentAlignment="Right" />
+                </xctk:ButtonSpinner>
+            </StackPanel>
+        </TabItem>
+
+        <TabItem Header="Magnifier">
+            <StackPanel>
+                <xctk:MagnifierManager.Magnifier>
+                    <xctk:Magnifier BorderBrush="Red" BorderThickness="1" Radius="75" ZoomFactor=".4"/>
+                </xctk:MagnifierManager.Magnifier>
+                <TextBlock Text="Some text to be manified.  Hover mouser here!" Background="Beige"/>
+            </StackPanel>
+        </TabItem>
+
+
+
+    </TabControl>
+</Window>
+

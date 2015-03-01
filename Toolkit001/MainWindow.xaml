@@ -27,7 +27,9 @@
         <TabItem Header="PieChart">
             <StackPanel Margin="10">
                 <Button x:Name="btnDrawPie" Content="Draw Pie Chart" Click="btnDrawPie_Click"/>
-                <xctk:Pie x:Name="myPie"></xctk:Pie>
+                <Grid x:Name="pieGrid" Margin="5">
+                </Grid>
+                <Label Content="This is the end of the Grid"></Label>
             </StackPanel>
         </TabItem>
 

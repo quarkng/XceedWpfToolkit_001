@@ -44,11 +44,32 @@ namespace Toolkit001
 
         private void btnDrawPie_Click(object sender, RoutedEventArgs e)
         {
+            Pie myPie = new Pie();
             myPie.Fill = new SolidColorBrush(Colors.CadetBlue);
             myPie.Height = 100;
             myPie.Width = 100;
             myPie.StartAngle = 0;
             myPie.EndAngle = 90;
+
+            Pie myPie2 = new Pie();
+            myPie2.Fill = new SolidColorBrush(Colors.PeachPuff);
+            myPie2.Height = 100;
+            myPie2.Width = 100;
+            myPie2.StartAngle = 90;
+            myPie2.EndAngle = 250;
+
+            Pie myPie3 = new Pie();
+            myPie3.Fill = new SolidColorBrush(Colors.PaleGreen);
+            myPie3.Height = 100;
+            myPie3.Width = 100;
+            myPie3.StartAngle = 250;
+            myPie3.EndAngle = 360;
+
+
+
+            pieGrid.Children.Add(myPie);
+            pieGrid.Children.Add(myPie2);
+            pieGrid.Children.Add(myPie3);
         }
     }
 }

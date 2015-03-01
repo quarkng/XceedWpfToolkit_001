@@ -4,10 +4,10 @@
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:xcdg="http://schemas.xceed.com/wpf/xaml/datagrid"
         Title="Xceed Toolkit"
-        Height="300" Width="300">
+        Height="400" Width="400">
     <TabControl>
         <TabItem Header="ButtonSpinner">
-            <StackPanel>
+            <StackPanel Margin="10">
                 <xctk:ButtonSpinner Spin="ButtonSpinner_Spin">
                     <TextBox Text="0" HorizontalContentAlignment="Right" />
                 </xctk:ButtonSpinner>
@@ -15,7 +15,7 @@
         </TabItem>
 
         <TabItem Header="Magnifier">
-            <StackPanel>
+            <StackPanel Margin="10">
                 <xctk:MagnifierManager.Magnifier>
                     <xctk:Magnifier BorderBrush="Red" BorderThickness="1" Radius="75" ZoomFactor=".4"/>
                 </xctk:MagnifierManager.Magnifier>
@@ -23,6 +23,20 @@
             </StackPanel>
         </TabItem>
 
+
+        <TabItem Header="PieChart">
+            <StackPanel Margin="10">
+                <Button x:Name="btnDrawPie" Content="Draw Pie Chart" Click="btnDrawPie_Click"/>
+                <xctk:Pie x:Name="myPie"></xctk:Pie>
+            </StackPanel>
+        </TabItem>
+
+
+
+        <TabItem Header="Template">
+            <StackPanel Margin="10">
+            </StackPanel>
+        </TabItem>
 
 
     </TabControl>

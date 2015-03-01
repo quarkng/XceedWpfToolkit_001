@@ -41,5 +41,14 @@ namespace Toolkit001
                 value--;
             txtBox.Text = value.ToString();
         }
+
+        private void btnDrawPie_Click(object sender, RoutedEventArgs e)
+        {
+            myPie.Fill = new SolidColorBrush(Colors.CadetBlue);
+            myPie.Height = 100;
+            myPie.Width = 100;
+            myPie.StartAngle = 0;
+            myPie.EndAngle = 90;
+        }
     }
 }
